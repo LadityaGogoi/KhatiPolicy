@@ -1,5 +1,13 @@
 import { supabase } from "lib/supabase";
 import { useState } from "react";
+import type { Route } from "../+types/root";
+
+export function meta({ }: Route.MetaArgs) {
+    return [
+        { title: "Khati Web Page | delete" },
+        { name: "description", content: "Queries for Playstore!" },
+    ];
+}
 
 const DeleteAccountScreen = () => {
     const [email, setEmail] = useState("");
