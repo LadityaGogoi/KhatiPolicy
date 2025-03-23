@@ -1,6 +1,6 @@
 export function PolicyScreen() {
     return (
-        <div className="flex flex-col bg-gray-100 min-h-screen w-11/12 lg:w-md mx-auto py-5 px-3">
+        <div className="flex flex-col bg-gray-100 min-h-screen w-11/12 lg:w-3/4 mx-auto py-5 px-3">
             <div className="text-3xl font-bold text-center">Privacy Policy</div>
             <p className="text-lg text-slate-700"><strong>Last updated: March 23, 2025</strong></p>
             <p className="text-slate-500 text-sm">This Privacy Policy describes Our policies and procedures on the collection, use, and disclosure of Your information when You use the Khati Service and informs You about Your privacy rights and how the law protects You.</p>
